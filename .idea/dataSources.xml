@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="265473013">
+    <data-source source="LOCAL" name="Rails books: development" uuid="5fdb134a-0c65-4fb7-9d70-64ec0b0d9d11">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails books: production" uuid="e0814c0d-4fa7-4bf7-8454-625fdcb8acae">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-225-101-4.compute-1.amazonaws.com/d65vpcu05g232t</jdbc-url>
+      <user-name>xcxjgjbheulldy</user-name>
+      <user-password>dff2df93df99dff8df87dfe2dff3df9adfc7dfdedfe3dfe6dfc1dfc6df99dfe1dfe7dfeedffadf9bdff8df93dfc9df98dfcbdfe0</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

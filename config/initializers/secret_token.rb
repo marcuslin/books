@@ -1,0 +1,1 @@
+Books::Application.config.secret_key_base = 'bd48f7fe492e1d80ccf339d5c2f6c54a07b059053dcda37ed133e4d76e8cbd348effecfc4b520ddc64908c15ccd51e94b643d757e8051e305463fc2aaeb76335'
