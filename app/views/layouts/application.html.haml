@@ -3,7 +3,7 @@
   %head
     = display_meta_tags
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-      %title= content_for?(:title) ? yield(:title) : "Books"
+      %title= content_for?(:title) ? yield(:title) : "Bigheart"
       %meta{:content => content_for?(:description) ? yield(:description) : "Bigheart", :name => "description"}
         %link{:href => "//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css", :rel => "stylesheet"}/
         %link{href: "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", rel: "stylesheet"}/
@@ -27,10 +27,11 @@
     -#    fjs.parentNode.insertBefore(js, fjs);
     -#  }(document, 'script', 'facebook-jssdk'));
     = render 'layouts/navigation'
+    -#= render 'layouts/feedback'
     #main{:role => "main"}
       .container
         .content
-          -#= render 'layouts/messages'
+          = render 'layouts/messages'
           = yield
           %footer
       / ! end of .container
