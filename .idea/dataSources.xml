@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="265473013">
+  <component name="DataSourceManagerImpl" format="xml" hash="1581908477">
     <data-source source="LOCAL" name="Rails books: development" uuid="5fdb134a-0c65-4fb7-9d70-64ec0b0d9d11">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/books_dev.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
@@ -18,6 +18,16 @@
       <user-name>xcxjgjbheulldy</user-name>
       <user-password>dff2df93df99dff8df87dfe2dff3df9adfc7dfdedfe3dfe6dfc1dfc6df99dfe1dfe7dfeedffadf9bdff8df93dfc9df98dfcbdfe0</user-password>
       <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails books: test" uuid="c446d0f2-96bf-4194-a88d-b39dd8012500">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/books_test.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

@@ -1,0 +1,8 @@
+%h2 Create Book
+= simple_form_for @book, :html => {:class => 'form-vertical', role: "form"} do |f|
+  .form-group
+    = f.input :title, :input_html => { class: "form-control"}, :autofocus => true
+    = f.input :author, :input_html => { class: "form-control"}
+  .form-group
+    = f.button :submit, "Add", :class => 'btn btn-primary'
+

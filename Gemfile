@@ -27,6 +27,7 @@ gem 'geokit'
 gem 'geokit-rails'
 gem 'fog', '~> 1.3.1'
 gem 'nokogiri', '~>1.5.0'
+gem 'httparty'
 
 group :development do
   gem 'better_errors'

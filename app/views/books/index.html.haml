@@ -1,0 +1,10 @@
+#books{style: "margin-top: 50px"}
+  - @books.each do |b|
+    .book
+      = image_tag b.cover_thumb_url
+      -#%h3
+      -#  %strong.book_title
+      -#    = b.title
+      -#%strong.author
+      -#  = b.author
+      -#%a.btn.btn-primary{href: "/books/#{b.id}", role: "button"} 繼續閱讀 »
